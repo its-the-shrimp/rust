@@ -35,7 +35,7 @@ pub enum Alignment {
 
 #[stable(feature = "debug_builders", since = "1.2.0")]
 pub use self::builders::{DebugList, DebugMap, DebugSet, DebugStruct, DebugTuple};
-#[unstable(feature = "debug_closure_helpers", issue = "117729")]
+#[stable(feature = "debug_closure_helpers", since = "CURRENT_RUSTC_VERSION")]
 pub use self::builders::{FromFn, from_fn};
 
 /// The type returned by formatter methods.

@@ -8,7 +8,6 @@
 #![feature(associated_type_defaults)]
 #![feature(box_patterns)]
 #![feature(closure_track_caller)]
-#![feature(debug_closure_helpers)]
 #![feature(exhaustive_patterns)]
 #![feature(let_chains)]
 #![feature(never_type)]
